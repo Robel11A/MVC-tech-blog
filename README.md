@@ -9,7 +9,7 @@ Frontend: Handlebars.js, HTML,CSS
 npm install
 
 ## Clone the repository
-
+git clone https://github.com/Robel11A/MVC-tech-blog.git
 
 ## Start the server
 npm start
