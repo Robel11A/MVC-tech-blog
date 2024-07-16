@@ -1,0 +1,22 @@
+<nav>
+  <a href="/">Home</a>
+  <button id="logout">Logout</button>
+</nav>
+
+<h1>Dashboard</h1>
+
+<form id="new-post-form">
+  <input type="text" id="post-title" placeholder="Post Title">
+  <textarea id="post-content" placeholder="Post Content"></textarea>
+  <button type="submit">Create Post</button>
+</form>
+
+<h2>Your Posts</h2>
+{{#each posts}}
+  <div>
+    <h3>{{title}}</h3>
+    <p>{{content}}</p>
+    <button data-id="{{id}}" class="delete-post">Delete</button>
+    <button data-id="{{id}}" class="update-post">Update</button>
+  </div>
+{{/each}}
