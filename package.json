@@ -1,21 +1,23 @@
 {
-    "name": "your-project-name",
+    "name": "blog",
     "version": "1.0.0",
-    "description": "",
+    "description": "Tech Blog CMS is a Content Management System (CMS) designed for publishing articles, blog posts, and opinions related to technology. It provides a platform for users to create, edit, and manage their content efficiently.",
     "main": "server.js",
     "scripts": {
-      "start": "node server.js",
-      "seed": "node seeds/seed.js"
+        "start": "node server.js",
+        "seed": "node seeds/seed.js"
     },
     "dependencies": {
-      "bcrypt": "^5.0.1",
-      "connect-session-sequelize": "^7.1.1",
-      "dotenv": "^10.0.0",
-      "express": "^4.17.1",
-      "express-handlebars": "^5.3.3",
-      "express-session": "^1.17.2",
-      "pg": "^8.6.0",
-      "sequelize": "^6.6.5"
-    }
-  }
-  
+        "bcrypt": "^5.1.1",
+        "connect-session-sequelize": "^7.1.7",
+        "dotenv": "^10.0.0",
+        "express": "^4.19.2",
+        "express-handlebars": "^5.3.5",
+        "express-session": "^1.18.0",
+        "pg": "^8.12.0",
+        "sequelize": "^6.37.3"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
