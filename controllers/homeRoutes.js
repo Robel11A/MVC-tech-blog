@@ -2,6 +2,9 @@ const router = require("express").Router();
 const auth = require("./middleware/auth");
 const { Poster, User, Comment } = require("../models");
 
+
+
+
 router.get("/", async (req, res) => {
     try {
         const posterData = await Poster.findAll({
